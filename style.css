@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"], input[type="button"] {
+    border: 1px solid #114888;
+} 
+
+input[type="button"] {
+    width: 100px;
+    color: #fff;
+    background: #4c73b9;
+    cursor: pointer;
+}
+
+input[type="button"]:disabled {
+    background: #7f8fac;
+    cursor: not-allowed;
+}
+
+#sortBtn {
+    font-weight: bold;
+}
+
+.clear-button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
